@@ -1,46 +1,64 @@
-/* Reset and base styles */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', monospace;
-  background-color: #111;
+  font-family: 'Press Start 2P', monospace;
+  background-color: #0d0d0d;
   color: #f0f0f0;
   text-align: center;
 }
 
-/* Header */
 header {
-  background-color: #ff5e5e;
+  background: linear-gradient(to right, #ff8c00, #ff5e5e);
   padding: 1rem;
-  color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2rem;
-  letter-spacing: 1px;
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 header p {
-  margin: 0.5rem 0 0;
-  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #ffe;
 }
 
-/* Main content */
 main {
   padding: 1.5rem;
 }
 
-label, select, button {
-  font-size: 1rem;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  border-radius: 5px;
-  border: none;
+.controls {
+  margin-bottom: 1.5rem;
 }
 
-select {
+label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  font-size: 0.8rem;
+}
+
+select, input[type="range"], button {
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 4px;
   background-color: #222;
   color: #fff;
 }
@@ -49,6 +67,7 @@ button {
   background-color: #00c2ff;
   color: #000;
   font-weight: bold;
+  box-shadow: 0 0 10px #00c2ff;
   cursor: pointer;
 }
 
@@ -56,19 +75,91 @@ button:hover {
   background-color: #00eaff;
 }
 
-/* Result box */
-#result {
+.result-box {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #ff5e5e;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.result-box h2 {
+  font-size: 1rem;
+  color: #ff8c00;
+  margin-bottom: 0.5rem;
+}
+
+.result-box p {
+  font-size: 0.7rem;
+  margin: 0.3rem 0;
+}
+
+#explorer, #submit {
   margin-top: 2rem;
   padding: 1rem;
-  background-color: #222;
+  background-color: #111;
+  box-shadow: 0 0 10px #00c2ff;
   border-radius: 8px;
+}
+
+.vibe-group h3 {
+  color: #00c2ff;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.vibe-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.vibe-group li {
+  font-size: 0.7rem;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid #333;
+}
+
+#submitForm input, #submitForm select {
+  display: block;
+  width: 80%;
+  margin: 0.5rem auto;
+  padding: 0.4rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#submitForm button {
+  margin-top: 0.5rem;
+  background-color: #ff5e5e;
+  color: #fff;
+  font-weight: bold;
   box-shadow: 0 0 10px #ff5e5e;
 }
 
-/* Footer */
+#submissionLog {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  color: #0f0;
+}
+
 footer {
   margin-top: 2rem;
   padding: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   color: #aaa;
+}
+
+#searchBar {
+  width: 80%;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
 }
