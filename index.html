@@ -9,12 +9,22 @@
 <body>
   <header>
     <h1>EchoMatch 🎶</h1>
-    <p>Find the retro OPM vibe behind today’s hits</p>
+    <p>Find your retro OPM vibe match</p>
   </header>
 
   <main>
-    <input type="text" id="songInput" placeholder="Enter a modern OPM song..." />
+    <label for="vibeSelect">Choose a vibe:</label>
+    <select id="vibeSelect">
+      <option value="romantic">Romantic</option>
+      <option value="melancholic">Melancholic</option>
+      <option value="gritty">Gritty</option>
+      <option value="quirky">Quirky</option>
+      <option value="anthemic">Anthemic</option>
+      <option value="bold">Bold</option>
+    </select>
+
     <button id="matchBtn">Find Match</button>
+
     <div id="result"></div>
   </main>
 
