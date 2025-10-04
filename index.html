@@ -33,6 +33,30 @@
     </div>
 
     <div id="result" class="result-box"></div>
+
+    <section id="explorer">
+      <h2>Vibe Explorer</h2>
+      <div id="vibeGroups"></div>
+    </section>
+
+    <section id="submit">
+      <h2>Suggest a Match</h2>
+      <form id="submitForm">
+        <input type="text" id="modernInput" placeholder="Modern song" required />
+        <input type="text" id="retroInput" placeholder="Retro match" required />
+        <select id="vibeInput" required>
+          <option value="">Vibe</option>
+          <option value="romantic">Romantic</option>
+          <option value="melancholic">Melancholic</option>
+          <option value="gritty">Gritty</option>
+          <option value="quirky">Quirky</option>
+          <option value="anthemic">Anthemic</option>
+          <option value="bold">Bold</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="submissionLog"></div>
+    </section>
   </main>
 
   <footer>
