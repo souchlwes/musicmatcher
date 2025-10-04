@@ -1,39 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EchoMatch</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EchoMatch 🎶</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body onload="loadFavorite()">
-  <img src="assets/pixel-logo.png" alt="EchoMatch Logo" class="logo-img">
-  <div class="input-panel">
-    <select id="category">
-      <option value="music">🎵 Music</option>
-      <option value="fashion">👗 Fashion</option>
-      <option value="film">🎬 Film/TV</option>
-    </select>
-    <input type="text" id="modernInput" placeholder="Enter a modern item...">
-    <select id="vibe">
-      <option value="">Any vibe</option>
-      <option value="romantic">Romantic</option>
-      <option value="gritty">Gritty</option>
-      <option value="quirky">Quirky</option>
-      <option value="bold">Bold</option>
-      <option value="anthemic">Anthemic</option>
-      <option value="melancholic">Melancholic</option>
-    </select>
-    <button onclick="findMatch()">Find Retro Match</button>
-    <button onclick="shuffleMatch()">🎲 Shuffle a Vibe</button>
-  </div>
-  <div id="result"></div>
+<body>
+  <header>
+    <h1>EchoMatch 🎶</h1>
+    <p>Find the retro OPM vibe behind today’s hits</p>
+  </header>
+
+  <main>
+    <input type="text" id="songInput" placeholder="Enter a modern OPM song..." />
+    <button id="matchBtn">Find Match</button>
+    <div id="result"></div>
+  </main>
+
   <footer>
-    EchoMatch • Find the past in the present<br>
-    <a href="https://github.com/YOUR_USERNAME/echomatch/issues/new?title=New+Match+Suggestion&body=Modern:+%0AVibe:+%0ARetro:+%0ASpotify+Embed:+%0ANotes:" target="_blank">
-      💌 Suggest a Match
-    </a>
+    <p>Made with ❤️ for OPM lovers</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
