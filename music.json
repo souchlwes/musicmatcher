@@ -1,352 +1,182 @@
 [
   {
     "modern": "Raining in Manila",
-    "vibe": "anthemic",
     "retro": "Tuwing Umuulan - Basil Valdez",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/3ZFTkvIE7kyPt6Nu3PEa7V"
-    },
+    "vibe": "anthemic",
+    "bpm": 90,
+    "energy": 0.6,
+    "valence": 0.4,
     "notes": "Both songs evoke longing and nostalgia through sweeping melodies and poetic lyrics."
   },
   {
-    "modern": "Mundo",
-    "vibe": "romantic",
-    "retro": "Forevermore - Side A",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/5B4h5oN28Q8z8dB0kH9g7I"
-    },
-    "notes": "A timeless pairing of love songs with smooth vocals and heartfelt delivery."
-  },
-  {
-    "modern": "Bulong",
-    "vibe": "melancholic",
-    "retro": "Huwag Mo Nang Itanong - Eraserheads",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/4N99L9F3C2c9iWAzOU7M7H"
-    },
-    "notes": "Raw emotion and haunting melodies from two eras of heartbreak."
-  },
-  {
     "modern": "Binibini",
-    "vibe": "romantic",
     "retro": "Ikaw - Sharon Cuneta",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/6xZtSE6xaBxmT0Z2vY3sY9"
-    },
-    "notes": "Both songs express deep devotion with soaring vocals and heartfelt lyrics."
-  },
-  {
-    "modern": "Sa Ngalan ng Pag-Ibig",
-    "vibe": "anthemic",
-    "retro": "Sana Maulit Muli - Gary Valenciano",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/1Tf6Yx6qPIqXJ4YgwpkagB"
-    },
-    "notes": "Grand, sweeping declarations of love across generations."
+    "vibe": "romantic",
+    "bpm": 75,
+    "energy": 0.5,
+    "valence": 0.6,
+    "notes": "Expresses deep devotion with soaring vocals and heartfelt lyrics."
   },
   {
     "modern": "Kathang Isip",
-    "vibe": "melancholic",
     "retro": "So Many Questions - Side A",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/5nGoeirW15pemWps2K8eD1"
-    },
-    "notes": "Emotional ballads with introspective lyrics and soft instrumentation."
+    "vibe": "melancholic",
+    "bpm": 82,
+    "energy": 0.4,
+    "valence": 0.3,
+    "notes": "Introspective ballads with emotional vulnerability."
   },
   {
     "modern": "Pasilyo",
-    "vibe": "romantic",
     "retro": "Paniwalaan Mo - Blue Jeans",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/3zM4R3zLKBms3zWly90N56"
-    },
-    "notes": "Sweet serenades with youthful charm and sincerity."
-  },
-  {
-    "modern": "Ikaw at Ako",
     "vibe": "romantic",
-    "retro": "Pangako - Ogie Alcasid",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/6VqZG02tHGiCM9WeeKmoS0"
-    },
-    "notes": "Tender duets that promise forever love."
-  },
-  {
-    "modern": "Leaves",
-    "vibe": "melancholic",
-    "retro": "Hanggang - Wency Cornejo",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/2uW3qY0S0YvB5c7bY2zB3W"
-    },
-    "notes": "Gentle reflections on love and loss."
-  },
-  {
-    "modern": "Tahanan",
-    "vibe": "romantic",
-    "retro": "Sana'y Wala Nang Wakas - Sharon Cuneta",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/3Qzq9vR6jZ7LBFHDSc7T0B"
-    },
-    "notes": "Songs that feel like home, wrapped in warmth and devotion."
-  },
-  {
-    "modern": "Pano",
-    "vibe": "melancholic",
-    "retro": "Sayang - Claire dela Fuente",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/6UelLqGlWMcVH1E5cX5VgO"
-    },
-    "notes": "Both songs explore heartbreak with soulful delivery and emotional depth."
-  },
-  {
-    "modern": "Mahika",
-    "vibe": "romantic",
-    "retro": "Kahit Maputi Na Ang Buhok Ko - Rey Valera",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/3KkXRkHbMCARz0aVfEt68P"
-    },
-    "notes": "Timeless love songs that promise devotion through the years."
+    "bpm": 78,
+    "energy": 0.5,
+    "valence": 0.7,
+    "notes": "Sweet serenades with youthful sincerity."
   },
   {
     "modern": "Uhaw",
-    "vibe": "gritty",
     "retro": "Himig Natin - Juan de la Cruz Band",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/2C3R4YMTivIG8v6kMMSVdt"
-    },
-    "notes": "Raw, powerful vocals and rock-infused emotion from two generations."
+    "vibe": "gritty",
+    "bpm": 95,
+    "energy": 0.8,
+    "valence": 0.4,
+    "notes": "Raw, rock-infused emotion from two generations."
+  },
+  {
+    "modern": "Mahika",
+    "retro": "Kahit Maputi Na Ang Buhok Ko - Rey Valera",
+    "vibe": "romantic",
+    "bpm": 72,
+    "energy": 0.4,
+    "valence": 0.6,
+    "notes": "Timeless love songs that promise devotion through the years."
+  },
+  {
+    "modern": "Pano",
+    "retro": "Sayang - Claire dela Fuente",
+    "vibe": "melancholic",
+    "bpm": 76,
+    "energy": 0.3,
+    "valence": 0.2,
+    "notes": "Explores heartbreak with soulful delivery and emotional depth."
   },
   {
     "modern": "Langit",
-    "vibe": "quirky",
     "retro": "Bonggahan - Sampaguita",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/3e9u6C4vD6Z0p0n5z8e6z2"
-    },
+    "vibe": "quirky",
+    "bpm": 110,
+    "energy": 0.9,
+    "valence": 0.8,
     "notes": "Playful, rebellious energy with psychedelic flair."
   },
   {
-    "modern": "LDR",
-    "vibe": "melancholic",
-    "retro": "Tuloy Pa Rin - Neocolours",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/1rfofaqEpACxVEHIZBJe6W"
-    },
-    "notes": "Songs about distance and resilience in love."
-  },
-  {
-    "modern": "Sinta",
-    "vibe": "romantic",
-    "retro": "Bakit Ngayon Ka Lang - Freestyle & Pops Fernandez",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/5CtI0qwDJkDQGwXD1H1cLb"
-    },
-    "notes": "Soulful ballads that ache with longing and timing."
-  },
-  {
     "modern": "Teka Lang",
-    "vibe": "melancholic",
     "retro": "Kung Ako Na Lang Sana - Bituin Escalante",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/6J6yx1t3WbmZ1HjYtjxN7w"
-    },
+    "vibe": "melancholic",
+    "bpm": 70,
+    "energy": 0.3,
+    "valence": 0.3,
     "notes": "Songs that speak to missed chances and quiet heartbreak."
   },
   {
     "modern": "Di Na Muli",
-    "vibe": "melancholic",
     "retro": "Sana - Up Dharma Down",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/3PfIrDoz19wz7qK7tYeu62"
-    },
+    "vibe": "melancholic",
+    "bpm": 80,
+    "energy": 0.4,
+    "valence": 0.3,
     "notes": "Haunting melodies and introspective lyrics that linger."
   },
   {
-    "modern": "Hanggang Kailan",
-    "vibe": "melancholic",
-    "retro": "Bato Sa Buhangin - Cinderella",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/7yq4Qrx2XYz0ie60LdfAyK"
-    },
-    "notes": "Classic heartbreak songs with poetic metaphors."
-  },
-  {
-    "modern": "Kung Di Rin Lang Ikaw",
-    "vibe": "romantic",
-    "retro": "You - Basil Valdez",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/4e4pwQ0l5cK0y8e3NqDLtP"
-    },
-    "notes": "Deeply emotional love songs with timeless appeal."
-  },
-  {
     "modern": "Paninindigan Kita",
-    "vibe": "romantic",
     "retro": "Paniwalaan Mo - Blue Jeans",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/3n3Ppam7vgaVa1iaRUc9Lp"
-    },
-    "notes": "Both songs express unwavering commitment and heartfelt promises."
+    "vibe": "romantic",
+    "bpm": 85,
+    "energy": 0.6,
+    "valence": 0.7,
+    "notes": "Unwavering commitment and heartfelt promises."
   },
   {
     "modern": "Kumpas",
-    "vibe": "romantic",
     "retro": "Sana'y Wala Nang Wakas - Sharon Cuneta",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/5HCyWlXZPP0y6Gqq8TgA20"
-    },
+    "vibe": "romantic",
+    "bpm": 78,
+    "energy": 0.5,
+    "valence": 0.6,
     "notes": "Songs that guide love through time and uncertainty."
   },
   {
-    "modern": "Hindi Ko Kaya",
-    "vibe": "gritty",
-    "retro": "Bato Sa Buhangin - Cinderella",
-    "media": {
-      "type": "spotify",
-      "embed": null
-    },
-    "notes": "Emotional vulnerability wrapped in poetic metaphors. Spotify track unavailable; please provide artist or alternative source."
-  },
-  {
-    "modern": "Oras",
-    "vibe": "melancholic",
-    "retro": "Tuyo Na'ng Damdamin - Sharon Cuneta",
-    "media": {
-      "type": "spotify",
-      "embed": null
-    },
-    "notes": "Songs that reflect on time, loss, and fading emotions. Spotify track unavailable; please provide artist or alternative source."
-  },
-  {
-    "modern": "Pelikula",
-    "vibe": "romantic",
-    "retro": "Ikaw Lamang - Gary Valenciano",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/5yQzJ6MWLgqY0mCctV5E7f"
-    },
-    "notes": "Cinematic love stories told through soaring melodies."
-  },
-  {
     "modern": "Marupok",
-    "vibe": "bold",
     "retro": "Bonggahan - Sampaguita",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/3e9u6C4vD6Z0p0n5z8e6z2"
-    },
+    "vibe": "bold",
+    "bpm": 100,
+    "energy": 0.9,
+    "valence": 0.5,
     "notes": "Fierce and unapologetic anthems of self-expression."
   },
   {
     "modern": "Isa Lang",
-    "vibe": "romantic",
     "retro": "You - Basil Valdez",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/4e4pwQ0l5cK0y8e3NqDLtP"
-    },
+    "vibe": "romantic",
+    "bpm": 74,
+    "energy": 0.4,
+    "valence": 0.5,
     "notes": "Minimalist ballads that center on one true love."
   },
   {
     "modern": "Sana",
-    "vibe": "melancholic",
     "retro": "Sayang - Claire dela Fuente",
-    "media": {
-      "type": "spotify",
-      "embed": null
-    },
-    "notes": "Songs that ache with regret and emotional weight. Spotify track unavailable; please provide artist or alternative source."
+    "vibe": "melancholic",
+    "bpm": 76,
+    "energy": 0.3,
+    "valence": 0.2,
+    "notes": "Songs that ache with regret and emotional weight."
   },
   {
     "modern": "Teka",
-    "vibe": "anthemic",
     "retro": "Awit ng Kabataan - Rivermaya",
-    "media": {
-      "type": "spotify",
-      "embed": null
-    },
-    "notes": "Youthful energy and calls for reflection across eras. Spotify track unavailable; please provide artist or alternative source."
+    "vibe": "anthemic",
+    "bpm": 92,
+    "energy": 0.7,
+    "valence": 0.6,
+    "notes": "Youthful energy and calls for reflection across eras."
   },
   {
     "modern": "Lunod",
-    "vibe": "gritty",
     "retro": "Alapaap - Eraserheads",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/6z3S8WnN4vTAYpFXXI2g2N"
-    },
+    "vibe": "gritty",
+    "bpm": 88,
+    "energy": 0.7,
+    "valence": 0.4,
     "notes": "Songs that dive into emotional depths and existential themes."
   },
   {
     "modern": "Jeepney",
-    "vibe": "quirky",
     "retro": "Rock Baby Rock - VST & Co.",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/1lDWb6b6ieDQ2xT7ewTC3G"
-    },
+    "vibe": "quirky",
+    "bpm": 115,
+    "energy": 0.9,
+    "valence": 0.9,
     "notes": "Playful, upbeat tracks with nostalgic Filipino flavor."
   },
   {
     "modern": "214",
-    "vibe": "romantic",
     "retro": "Forevermore - Side A",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/5B4h5oN28Q8z8dB0kH9g7I"
-    },
+    "vibe": "romantic",
+    "bpm": 80,
+    "energy": 0.5,
+    "valence": 0.6,
     "notes": "Timeless love songs with soaring melodies and poetic lyrics."
   },
   {
     "modern": "With A Smile",
-    "vibe": "romantic",
     "retro": "Handog - Florante",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/2y4z2QeV2Tj6iG7o0fO4zF"
-    },
+    "vibe": "romantic",
+    "bpm": 76,
+    "energy": 0.4,
+    "valence": 0.7,
     "notes": "Gentle affirmations of love and kindness across eras."
-  },
-  {
-    "modern": "Huwag Ka Nang Umiyak",
-    "vibe": "melancholic",
-    "retro": "Tuyo Na'ng Damdamin - Sharon Cuneta",
-    "media": {
-      "type": "spotify",
-      "embed": null
-    },
-    "notes": "Songs that comfort the brokenhearted with tenderness. Spotify track unavailable; please provide artist or alternative source."
-  },
-  {
-    "modern": "Buwan",
-    "vibe": "gritty",
-    "retro": "Himig Natin - Juan de la Cruz Band",
-    "media": {
-      "type": "spotify",
-      "embed": "https://open.spotify.com/embed/track/2C3R4YMTivIG8v6kMMSVdt"
-    },
-    "notes": "Intense, moody tracks that channel raw passion and longing."
   }
 ]
