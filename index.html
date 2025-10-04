@@ -8,27 +8,35 @@
 </head>
 <body>
   <header>
-    <h1>EchoMatch 🎶</h1>
-    <p>Find your retro OPM vibe match</p>
+    <div class="logo">E.M.</div>
+    <h1>EchoMatch</h1>
+    <p>Find your retro OPM vibe</p>
   </header>
 
   <main>
-    <label for="vibeSelect">Choose a vibe:</label>
-    <select id="vibeSelect">
-      <option value="romantic">Romantic</option>
-      <option value="melancholic">Melancholic</option>
-      <option value="gritty">Gritty</option>
-      <option value="quirky">Quirky</option>
-      <option value="anthemic">Anthemic</option>
-      <option value="bold">Bold</option>
-    </select>
+    <div class="controls">
+      <label for="vibeSelect">Vibe:</label>
+      <select id="vibeSelect">
+        <option value="romantic">Romantic</option>
+        <option value="melancholic">Melancholic</option>
+        <option value="gritty">Gritty</option>
+        <option value="quirky">Quirky</option>
+        <option value="anthemic">Anthemic</option>
+        <option value="bold">Bold</option>
+      </select>
 
-    <button id="matchBtn">Find Match</button>
+      <label for="bpmRange">BPM tolerance (±):</label>
+      <input type="range" id="bpmRange" min="0" max="30" value="10" />
+      <span id="bpmValue">10</span>
 
-    <div id="result"></div>
+      <button id="matchBtn">Find Match</button>
+    </div>
+
+    <div id="result" class="result-box"></div>
   </main>
 
   <footer>
+    <input type="text" id="searchBar" placeholder="Search by retro song (coming soon)" disabled />
     <p>Made with ❤️ for OPM lovers</p>
   </footer>
 
