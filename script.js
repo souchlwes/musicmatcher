@@ -1,26 +1,39 @@
 document.getElementById("matchBtn").addEventListener("click", () => {
-  const input = document.getElementById("songInput").value.trim().toLowerCase();
+  const selectedVibe = document.getElementById("vibeSelect").value;
   const resultDiv = document.getElementById("result");
-  resultDiv.innerHTML = "Searching...";
 
   fetch("music.json")
-    .then((res) => res.json())
-    .then((data) => {
-      const match = data.find((entry) => entry.modern.toLowerCase() === input);
+    .then(res => res.json())
+    .then(data => {
+      // Filter by vibe
+      const vibeMatches = data.filter(entry => entry.vibe === selectedVibe);
 
-      if (match) {
-        resultDiv.innerHTML = `
-          <h2>🎵 ${match.modern}</h2>
-          <p><strong>Vibe:</strong> ${match.vibe}</p>
-          <p><strong>Retro Match:</strong> ${match.retro}</p>
-          <p>${match.notes}</p>
-          <iframe src="${match.media.embed}" width="100%" height="80" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        `;
-      } else {
-        resultDiv.innerHTML = `<p>No match found. Try another song title.</p>`;
+      if (vibeMatches.length === 0) {
+        resultDiv.innerHTML = `<p>No matches found for that vibe.</p>`;
+        return;
       }
+
+      // Pick a random reference BPM from the vibe group
+      const reference = vibeMatches[Math.floor(Math.random() * vibeMatches.length)];
+      const bpmRange = [reference.bpm - 10, reference.bpm + 10];
+
+      // Filter again by BPM proximity
+      const bpmMatches = vibeMatches.filter(entry =>
+        entry.bpm >= bpmRange[0] && entry.bpm <= bpmRange[1]
+      );
+
+      // Pick final match
+      const finalMatch = bpmMatches[Math.floor(Math.random() * bpmMatches.length)];
+
+      resultDiv.innerHTML = `
+        <h2>${finalMatch.modern}</h2>
+        <p><strong>Retro Match:</strong> ${finalMatch.retro}</p>
+        <p><strong>Vibe:</strong> ${finalMatch.vibe}</p>
+        <p><strong>BPM:</strong> ${finalMatch.bpm}</p>
+        <p>${finalMatch.notes}</p>
+      `;
     })
-    .catch((err) => {
+    .catch(err => {
       resultDiv.innerHTML = `<p>Error loading music data.</p>`;
       console.error(err);
     });
