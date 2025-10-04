@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'PixelFont';
+  src: url('assets/pixel-font.ttf') format('truetype');
+}
+
+body {
+  background: #0f0f0f;
+  color: #f0f0f0;
+  font-family: 'PixelFont', monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.input-panel {
+  margin-bottom: 30px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+input, select {
+  width: 60%;
+  max-width: 300px;
+}
+
+button {
+  background: #ff3399;
+  color: white;
+  cursor: pointer;
+}
+
+.result-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+iframe, img, video {
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.loading {
+  font-size: 1.2em;
+  color: #ff3399;
+  animation: flicker 0.8s infinite;
+  margin-top: 20px;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+@media screen and (max-width: 600px) {
+  input, select {
+    width: 90%;
+  }
+  .result-card {
+    padding: 15px;
+  }
+}
