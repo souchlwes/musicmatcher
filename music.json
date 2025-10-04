@@ -4,179 +4,139 @@
     "retro": "Tuwing Umuulan - Basil Valdez",
     "vibe": "anthemic",
     "bpm": 90,
-    "energy": 0.6,
-    "valence": 0.4,
-    "notes": "Both songs evoke longing and nostalgia through sweeping melodies and poetic lyrics."
+    "youtube": "https://www.youtube.com/watch?v=example1"
   },
   {
     "modern": "Binibini",
     "retro": "Ikaw - Sharon Cuneta",
     "vibe": "romantic",
     "bpm": 75,
-    "energy": 0.5,
-    "valence": 0.6,
-    "notes": "Expresses deep devotion with soaring vocals and heartfelt lyrics."
+    "youtube": "https://www.youtube.com/watch?v=example2"
   },
   {
     "modern": "Kathang Isip",
     "retro": "So Many Questions - Side A",
     "vibe": "melancholic",
     "bpm": 82,
-    "energy": 0.4,
-    "valence": 0.3,
-    "notes": "Introspective ballads with emotional vulnerability."
+    "youtube": "https://www.youtube.com/watch?v=example3"
   },
   {
     "modern": "Pasilyo",
     "retro": "Paniwalaan Mo - Blue Jeans",
     "vibe": "romantic",
     "bpm": 78,
-    "energy": 0.5,
-    "valence": 0.7,
-    "notes": "Sweet serenades with youthful sincerity."
+    "youtube": "https://www.youtube.com/watch?v=example4"
   },
   {
     "modern": "Uhaw",
     "retro": "Himig Natin - Juan de la Cruz Band",
     "vibe": "gritty",
     "bpm": 95,
-    "energy": 0.8,
-    "valence": 0.4,
-    "notes": "Raw, rock-infused emotion from two generations."
+    "youtube": "https://www.youtube.com/watch?v=example5"
   },
   {
     "modern": "Mahika",
     "retro": "Kahit Maputi Na Ang Buhok Ko - Rey Valera",
     "vibe": "romantic",
     "bpm": 72,
-    "energy": 0.4,
-    "valence": 0.6,
-    "notes": "Timeless love songs that promise devotion through the years."
+    "youtube": "https://www.youtube.com/watch?v=example6"
   },
   {
     "modern": "Pano",
     "retro": "Sayang - Claire dela Fuente",
     "vibe": "melancholic",
     "bpm": 76,
-    "energy": 0.3,
-    "valence": 0.2,
-    "notes": "Explores heartbreak with soulful delivery and emotional depth."
+    "youtube": "https://www.youtube.com/watch?v=example7"
   },
   {
     "modern": "Langit",
     "retro": "Bonggahan - Sampaguita",
     "vibe": "quirky",
     "bpm": 110,
-    "energy": 0.9,
-    "valence": 0.8,
-    "notes": "Playful, rebellious energy with psychedelic flair."
+    "youtube": "https://www.youtube.com/watch?v=example8"
   },
   {
     "modern": "Teka Lang",
     "retro": "Kung Ako Na Lang Sana - Bituin Escalante",
     "vibe": "melancholic",
     "bpm": 70,
-    "energy": 0.3,
-    "valence": 0.3,
-    "notes": "Songs that speak to missed chances and quiet heartbreak."
+    "youtube": "https://www.youtube.com/watch?v=example9"
   },
   {
     "modern": "Di Na Muli",
     "retro": "Sana - Up Dharma Down",
     "vibe": "melancholic",
     "bpm": 80,
-    "energy": 0.4,
-    "valence": 0.3,
-    "notes": "Haunting melodies and introspective lyrics that linger."
+    "youtube": "https://www.youtube.com/watch?v=example10"
   },
   {
     "modern": "Paninindigan Kita",
     "retro": "Paniwalaan Mo - Blue Jeans",
     "vibe": "romantic",
     "bpm": 85,
-    "energy": 0.6,
-    "valence": 0.7,
-    "notes": "Unwavering commitment and heartfelt promises."
+    "youtube": "https://www.youtube.com/watch?v=example11"
   },
   {
     "modern": "Kumpas",
     "retro": "Sana'y Wala Nang Wakas - Sharon Cuneta",
     "vibe": "romantic",
     "bpm": 78,
-    "energy": 0.5,
-    "valence": 0.6,
-    "notes": "Songs that guide love through time and uncertainty."
+    "youtube": "https://www.youtube.com/watch?v=example12"
   },
   {
     "modern": "Marupok",
     "retro": "Bonggahan - Sampaguita",
     "vibe": "bold",
     "bpm": 100,
-    "energy": 0.9,
-    "valence": 0.5,
-    "notes": "Fierce and unapologetic anthems of self-expression."
+    "youtube": "https://www.youtube.com/watch?v=example13"
   },
   {
     "modern": "Isa Lang",
     "retro": "You - Basil Valdez",
     "vibe": "romantic",
     "bpm": 74,
-    "energy": 0.4,
-    "valence": 0.5,
-    "notes": "Minimalist ballads that center on one true love."
+    "youtube": "https://www.youtube.com/watch?v=example14"
   },
   {
     "modern": "Sana",
     "retro": "Sayang - Claire dela Fuente",
     "vibe": "melancholic",
     "bpm": 76,
-    "energy": 0.3,
-    "valence": 0.2,
-    "notes": "Songs that ache with regret and emotional weight."
+    "youtube": "https://www.youtube.com/watch?v=example15"
   },
   {
     "modern": "Teka",
     "retro": "Awit ng Kabataan - Rivermaya",
     "vibe": "anthemic",
     "bpm": 92,
-    "energy": 0.7,
-    "valence": 0.6,
-    "notes": "Youthful energy and calls for reflection across eras."
+    "youtube": "https://www.youtube.com/watch?v=example16"
   },
   {
     "modern": "Lunod",
     "retro": "Alapaap - Eraserheads",
     "vibe": "gritty",
     "bpm": 88,
-    "energy": 0.7,
-    "valence": 0.4,
-    "notes": "Songs that dive into emotional depths and existential themes."
+    "youtube": "https://www.youtube.com/watch?v=example17"
   },
   {
     "modern": "Jeepney",
     "retro": "Rock Baby Rock - VST & Co.",
     "vibe": "quirky",
     "bpm": 115,
-    "energy": 0.9,
-    "valence": 0.9,
-    "notes": "Playful, upbeat tracks with nostalgic Filipino flavor."
+    "youtube": "https://www.youtube.com/watch?v=example18"
   },
   {
     "modern": "214",
     "retro": "Forevermore - Side A",
     "vibe": "romantic",
     "bpm": 80,
-    "energy": 0.5,
-    "valence": 0.6,
-    "notes": "Timeless love songs with soaring melodies and poetic lyrics."
+    "youtube": "https://www.youtube.com/watch?v=example19"
   },
   {
     "modern": "With A Smile",
     "retro": "Handog - Florante",
     "vibe": "romantic",
     "bpm": 76,
-    "energy": 0.4,
-    "valence": 0.7,
-    "notes": "Gentle affirmations of love and kindness across eras."
+    "youtube": "https://www.youtube.com/watch?v=example20"
   }
 ]
